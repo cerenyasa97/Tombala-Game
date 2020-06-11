@@ -13,8 +13,6 @@
  <p align="center">
   <b>Game:
   <br><br>
-  <width=120%>
-  <height=120%>
   <img src="https://user-images.githubusercontent.com/59059790/84412054-57791600-ac17-11ea-89d8-a84ae0560532.png">
 </p>
 
@@ -58,3 +56,8 @@ Throughout the game, as the users place the numbers drawn in their correct posit
 
 When the game is over, players encounter a message box on the screen. This message box provides information about who won the game. There are two things that can be done when the game ends: The first is to quit the game, and the second is to return to the menu for the new game. To return to the menu, "Menu" should be selected from the "File" menu, shown in Figure-3, in the upper left corner of the game. Ctrl + X shortcut or "Exit" option under "File" menu can also be used to exit the game.
 
+<p align="center">
+  <b>Game:
+  <br><br>
+  <img src="https://user-images.githubusercontent.com/59059790/84426121-5eaa1f00-ac2b-11ea-8feb-bc9c59abe12b.png">
+</p>
