@@ -19,3 +19,18 @@
 </p>
 
 The designed announcement screen should be saved in a folder. Then the location where the interface designed from the command prompt should be opened. This is done with the following code.
+For Windows:
+
+```bash
+C:\Users\Ceren> cd C:\Users\Ceren\path_where_the_file_is_located
+```
+
+Then, XML files obtained from Qt Designer with PyQt5 should be converted to Python code. We can do this using the code below.
+
+```bash
+C:\Users\Ceren> pyqt5 -x ui_file_name.ui -o python_file_name.py
+```
+
+The resulting Python code is only for the design of the .ui interface. Therefore, codes must be added for later features.
+
+The codes given above are ready to use. Downloaded codes and images must reside in the same folder.
