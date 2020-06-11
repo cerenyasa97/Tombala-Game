@@ -9,8 +9,9 @@
   <img src="https://user-images.githubusercontent.com/59059790/84407488-986f2b80-ac13-11ea-8566-4147b29fb44d.png">
 </p>
  
+
  <p align="center">
   <b>Game:
   <br><br>
-  <img src="https://user-images.githubusercontent.com/59059790/84407488-986f2b80-ac13-11ea-8566-4147b29fb44d.png">
+  <img src="https://user-images.githubusercontent.com/59059790/84409049-9312e080-ac15-11ea-931c-a8e4febfe3d7.png">
 </p>
