@@ -3,7 +3,7 @@
  
  First of all, an interface with an .ui extension is designed for the game to be written with Qt Designer. The designed interface has a menu and a game screen. These two screens are on the same Main Window as the design and one is hidden while the other is visible.
 
-The designed announcement screen should be saved in a folder. Then the location where the interface designed from the command prompt should be opened. This is done with the following code.
+The designed screen should be saved in a folder. Then the location where the interface designed from the command prompt should be opened. This is done with the following code.
 For Windows:
 
 ```bash
@@ -22,7 +22,7 @@ The codes given above are ready to use. Downloaded codes and images must reside 
 
 ## Instructions
 * Clone this repo.
-* Run python tombala_driver.py to run the server.
+* Run python tombala_driver.py.
 * Play for play game.
 * Exit to quit game.
 * Enter {player1 name} {player2 name} to create a new room. Game will start after {countdown} seconds.
