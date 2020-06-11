@@ -35,14 +35,26 @@ The resulting Python code is only for the design of the .ui interface. Therefore
 
 The codes given above are ready to use. Downloaded codes and images must reside in the same folder.
 
-# Play Game
+## Instructions
+* Clone this repo.
+* Run python tombala_driver.py to run the server.
+* Play for play game.
+* Exit to quit game.
+* Enter {player1 name} {player2 name} to create a new room. Game will start after {countdown} seconds.
+* Choose cards' colors
+* Initialize numbers on cards
+* Pick stamp
+* Take stamp if there is a number on the card that matches the stamp
+
+## Play Game
 
 "Tombala" game was designed with Qt Designer and coded using Python programming language. When the game code is executed, we first encounter a menu shown in Figure-1, and there are two buttons: "Play" and "Exit". The "Exit" button causes the game to close, while the "Play" button directs it to the game. 
 
-Then we come across the main game interface shown in Figure-2. In this interface, first of all, the names of the players should be written in the "Player 1" and "Player 2" text edits. Players should then choose the desired card color from the combo boxes provided and click on the "Initialize Numbers" button to be ready for the game. With the "Initialize Numbers" button, each row is sorted from small to large, 15 numbers are randomly selected in the 1-90 range. After the tombala cards are prepared, players should draw random numbers in the range of 1-90 using the "Pick Number" button and check whether this number is on their cards.
+Then we come across the main game interface shown in Game figure. In this interface, first of all, the names of the players should be written in the "Player 1" and "Player 2" text edits. Players should then choose the desired card color from the combo boxes provided and click on the "Initialize Numbers" button to be ready for the game. With the "Initialize Numbers" button, each row is sorted from small to large, 15 numbers are randomly selected in the 1-90 range. After the tombala cards are prepared, players should draw random numbers in the range of 1-90 using the "Pick Number" button and check whether this number is on their cards.
 
 If the players find that the number drawn is on their cards, they must place the number drawn with the "Take Stamp" button, in the upper left corner of each card, in the correct place on their cards.
 
 Throughout the game, as the users place the numbers drawn in their correct positions, the lines on the cards will be completed. Each player gets 10 points for the first line he/she completed, 20 for the second line, and 40 for the third line, and the player who has reached 70 points in total has won the game. If players missed these stamps even though some of the numbers on their cards are equal to the number drawn, they cannot complete their cards and lose the game. If both players encounter this situation, the game ends with the end of 90 stamps to be drawn. 
 
 When the game is over, players encounter a message box on the screen. This message box provides information about who won the game. There are two things that can be done when the game ends: The first is to quit the game, and the second is to return to the menu for the new game. To return to the menu, "Menu" should be selected from the "File" menu, shown in Figure-3, in the upper left corner of the game. Ctrl + X shortcut or "Exit" option under "File" menu can also be used to exit the game.
+
